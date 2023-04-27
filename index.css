@@ -1,0 +1,64 @@
+body{
+	background-color: rgb(223, 222, 222);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	text-align: center;
+	top: 10rem;
+	left: 12rem;
+	position: absolute;
+	 backdrop-filter: blur;
+    background-color: rgb(223, 222, 222);
+	height: 30rem;
+	box-shadow: 0 		15px 15px rgba(0, 0, 0, 0.5);
+	width: 30rem;
+ border: 1px solid  rgba(223, 222, 225); 
+}
+#dialogoverlay{
+	text-align: center;
+	top: 23rem;
+	left: -22rem;
+	font-size: 1.3rem;
+	position: relative;
+}
+.gamediv h1{
+    color: black;
+}
+.flex {
+	display: flex;
+	left: 5rem;
+	top: 3rem;
+	position: relative;
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	background-color:	white;
+}
+.button{
+	height: 40px;
+	left: 2rem;
+	font-size: 15px;
+	top: 0px;
+	background-color: rgb(161, 156, 156);
+	border-radius: 0	30px	30px	0px;
+	border: none;
+	outline: none;
+	border-left: 1px solid ;
+	position: relative;
+}
+#txtNumber{
+	left: 10px;
+	top: 10px;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	background-color: white;
+	position: relative;
+	
+}
